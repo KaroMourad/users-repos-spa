@@ -1,0 +1,29 @@
+/* Creates a full-height, left-mounted navigation menu */
+#nav {
+    width: 100%;
+    background: #222222;
+    padding: 10px;
+}
+
+/* Making these look fantastic */
+.nav_link {
+    padding: 12px 18px;
+    text-decoration: none;
+    color: #eeeeee;
+    font-weight: 500;
+    border-left: 1px solid black;
+}
+
+.nav_link:first-child {
+    border: none
+}
+
+.nav_link:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.nav_link_active {
+    color: #009579;
+    cursor: default;
+    pointer-events: none;
+}
